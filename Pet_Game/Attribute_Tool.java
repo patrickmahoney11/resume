@@ -7,11 +7,12 @@ public class Attribute_Tool {
 	
 	public static void checkHunger(myPet pig){
 		int num = (int)(Math.random()* 3 +1);
-		// as the pet gets older the game gets harder and if the user makes any  
-		// stat less than 5
+		/*
+		as the pet gets older or if a user causes a stat to decrese pass 5, the game gets harder and if the user makes any  
 		boolean easy = pig.getPetHunger() <= 5 || pig.getPetAge() > 6;
+		*/
 		
-		//sends initial message (2/3 good - 1/3 bad)
+		//sends initial message (random: 2/3 good - 1/3 bad)
 		pig.feed();	
 		 //other stats that change (additional phrases) 
 		 //dependent on stat < 5 or age > 6 
@@ -64,8 +65,7 @@ public class Attribute_Tool {
 	
 	public static void checkCleanliness(myPet pig){
 		int num = (int)(Math.random()* 3 +1);
-		// as the pet gets older the game gets harder and if the user makes any  
-		// stat less than 5
+
 		boolean easy = pig.getPetCleanliness() <= 5 || pig.getPetAge() > 6;
 		
 		//sends initial message (2/3 good - 1/3 bad)
@@ -119,8 +119,7 @@ public class Attribute_Tool {
 
 	public static void checkHappiness(myPet pig){
 		int num = (int)(Math.random()* 3 +1);
-		// as the pet gets older the game gets harder and if the user makes any  
-		// stat less than 5
+
 		boolean easy = pig.getPetHappiness() <= 5 || pig.getPetAge() > 7;
 		
 		//sends initial message (2/3 good - 1/3 bad)
@@ -169,8 +168,7 @@ public class Attribute_Tool {
 	
 	public static void checkHealth(myPet pig){
 		int num = (int)(Math.random()* 3 +1);
-		// as the pet gets older the game gets harder and if the user makes any  
-		// stat less than 5
+
 		boolean easy = pig.getPetHealth() <= 5 || pig.getPetAge() > 7;
 		
 		//sends initial message (2/3 good - 1/3 bad)

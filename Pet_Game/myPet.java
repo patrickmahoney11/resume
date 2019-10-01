@@ -71,9 +71,8 @@ public class myPet {
 	 }
 	 
 	 /*
-	  * methods for user choices of feed, wash, play, health and increments 
-	  * corresponding statistics 
-	  * 
+	  * methods for action choices (user input) 
+	  * feed, wash, play, health and increments corresponding statistics 
 	  */
 	 
 	 //feed->petHunger
