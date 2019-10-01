@@ -1,1 +1,4 @@
 # resume
+
+author: Patrick Mahoney
+
